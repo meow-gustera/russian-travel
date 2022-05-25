@@ -1,0 +1,29 @@
+.footer__navigation-link {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 18px 0 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 112%;
+  color: #FFFFFF;
+}
+
+.footer__navigation-link:last-child {
+  padding: 0;
+}
+
+.footer__navigation-link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__navigation-link {
+    padding-bottom: 32px;
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
