@@ -1,4 +1,4 @@
-.intro__title {
+.lead__intro-title {
   text-align: left;
   font-family: 'Inter';
   font-style: normal;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .intro__title {
+  .lead__intro-title {
     font-size: 32px;
     line-height: 109%;
   }
