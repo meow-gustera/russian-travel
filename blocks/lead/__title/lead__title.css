@@ -6,6 +6,7 @@
   line-height: 104%;
   text-align: center;
   margin: 56px auto 0;
+  max-width: 720px;
 }
 
 @media (max-width: 1079px) {
