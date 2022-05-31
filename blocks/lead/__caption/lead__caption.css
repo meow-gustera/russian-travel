@@ -8,6 +8,17 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin: 0;
-  max-height: 14px;
-  padding: 7px 0 0;
+  padding: 7px 0 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
 }

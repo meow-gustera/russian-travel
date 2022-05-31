@@ -2,11 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  width: calc(100% - 48px * 2);
+  max-width: 1184px;
   margin: 0 auto;
   padding: 92px 0 24px;
 }
 
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 928px;
+  }
+}
 
 @media screen and (max-width: 1023px) {
   .footer {

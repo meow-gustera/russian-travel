@@ -8,6 +8,7 @@
   color: #FFFFFF;
   grid-row: 1;
   grid-column: 2;
+  padding: 0;
 }
 
 .place__link:hover {

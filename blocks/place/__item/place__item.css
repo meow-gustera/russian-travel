@@ -3,7 +3,7 @@
   grid-template-columns: repeat(2,minmax(484px,1fr));
   box-sizing: content-box;
   padding-bottom: 80px;
-  gap: 48px 40px;
+  gap: 48px 17px;
 }
 
 .place__item:last-child {
@@ -21,6 +21,7 @@
   .place__item {
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 48px 28px;
+    padding-bottom: 73px;
   }
 }
 
@@ -28,5 +29,6 @@
   .place__item {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 32px 32px;
+    padding-bottom: 50px;
   }
 }

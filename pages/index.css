@@ -5,16 +5,19 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
-@import url(../blocks/lead/__intro-list-item/lead__intro-list-item.css);
-@import url(../blocks/lead/__intro-list/lead__intro-list.css);
-@import url(../blocks/lead/__intro-text/lead__intro-text.css);
-@import url(../blocks/lead/__intro-title/lead__intro-title.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/span-accent/intro__span-accent.css);
 
 /*@import url(../blocks/photo-grid/photo-grid.css);*/
 @import url(../blocks/photo/photo.css);
@@ -39,6 +42,7 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__navigation-link/footer__navigation-link.css);
 @import url(../blocks/footer/__navigation-links/footer__navigation-links.css);
+@import url(../blocks/footer/__navigation-item/footer__navigation-item.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 
 @import url(../vendor/fonts/Inter\ Web/inter.css);

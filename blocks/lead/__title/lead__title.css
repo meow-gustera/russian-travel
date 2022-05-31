@@ -6,20 +6,26 @@
   line-height: 104%;
   text-align: center;
   margin: 56px auto 0;
-  max-width: 720px;
+  padding: 0 152px 0 152px;
 }
 
 @media (max-width: 1079px) {
   .lead__title {
     margin: 48px auto 0;
+    padding: 0 152px 0 152px;
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .lead__title {
+    padding: 0 24px 0 24px;
+  }
+}
 
 @media (max-width: 767px) {
   .lead__title {
     font-size: 40px;
     line-height: 44px;
-    max-width: 288px;
+    padding: 0;
   }
 }
