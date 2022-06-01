@@ -3,7 +3,6 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
@@ -43,6 +42,5 @@
 @import url(../blocks/footer/__navigation-link/footer__navigation-link.css);
 @import url(../blocks/footer/__navigation-links/footer__navigation-links.css);
 @import url(../blocks/footer/__navigation-item/footer__navigation-item.css);
-@import url(../blocks/footer/__navigation/footer__navigation.css);
 
 @import url(../vendor/fonts/Inter\ Web/inter.css);
